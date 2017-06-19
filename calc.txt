@@ -1,0 +1,18 @@
+#!bin/sh
+echo "read no"
+read no1
+echo "read no2"
+read no2
+echo "enter operator"
+read op
+case $op in
+'+')  s=$no1 + $no2
+   ;;
+-) s=$no1 - $no2  
+   ;;
+*) s=$no1 * $no2  
+   ;;
+/) s=$no1 / $no2  
+   ;;
+esac
+   echo "$s"

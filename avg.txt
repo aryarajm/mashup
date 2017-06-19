@@ -1,0 +1,10 @@
+#!bin/sh
+for i in $*
+do
+
+   #  addition of all the numbers on cmd args
+   temp_total=`expr $temp_total + $i`
+echo " $temp_total"
+done
+avg=`expr $temp_total / $#`
+echo "Average of all number is $avg"
