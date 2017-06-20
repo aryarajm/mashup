@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+
+.fb-header,
+.fb-body {
+    background-color: #3b5998;
+    padding: 10px 200px 5px;
+    width: calc(100% - 391px);
+    height: auto;
+    overflow: hidden;
+}
+
+.login-fields {
+    width: 390px;
+    height: 65px;
+    float: right;
+}
+
+.input-text {
+    width:99px;
+}
+body{
+    width: 100%;
+    margin: 0;
+
+}
+.login-label{
+    color: white;
+    font-weight: normal;
+    font-size: 12px;
+}
+.fbhead{
+     float: left;
+     color: white;
+     font-size: 34px;
+    font-weight: bold;
+    margin-top: 17px;
+}
+.fb-body{
+    background-color: #e9ebee;
+}
+
+.column {
+    width: 50%;
+    float: left;
+}
+.contentleft{
+     font-size: 20px;
+     color: #0e385f;
+     margin-top:40px;
+}
+.lefthead{
+    color: #1d2129;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 25px auto 10px 66px;
+}
+.create-account-table input[type="text"],
+.create-account-table input[type="password"] {
+  padding: 10px;
+}
+.leftsubhead{
+   color: #1d2129;
+   font-size: 18px;
+   font-weight: normal;
+    margin: 10px auto 10px 66px;
+}
+.create-account-table{
+    margin-left: 59px;
+}
+.birthday{
+    margin-top: 5px;
+}
+.dob-td {
+    width: 65px;
+    float: left;
+    text-align: left;
+    display: block;
+}
+.dob-td select {
+    width: 60px;
+}
+.content-bottom{
+    font-size:10px;
+
+}
+.login-button{
+  background: linear-gradient(#79bc64, #578843);
+  border: 0;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+}
+.log-button{
+  background-color:#4267b2;
+  color:#FFF;
+  font-weight:bold;
+  width: 50px;
+}
+.mob{
+    width: 189%;
+}
+.pwd{
+   width: 189%;
+}
+.dob{
+  text-decoration:none;
+  font-size: 12px;
+  font-color:#365899;
+}

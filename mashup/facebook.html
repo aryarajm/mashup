@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Facebook-log in or signup</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <style type="text/css">
+	   .fb-header
+      {
+         background-color:#3b5998;
+         padding: 10px 200px 5px;
+         width: 100%;
+         height: auto;
+         overflow: hidden;
+      }
+       .fbhead
+      {
+        float: left;
+        color: white;
+        text-align:left;
+        font-size: 34px;
+        font-weight: bold;
+        margin-top: 17px;
+      }
+      .fb-body
+      {
+        background-color: #e9ebee;
+
+      }
+      .column {
+      {
+       width: 50%;
+       float: left;
+      }
+      .contentleft
+      {
+       font-size: 20px;
+       color: #0e385f;
+       margin-top:40px;
+      }
+      .login-fields 
+     {
+      width: 390px;
+      height: 65px;
+      float: right;
+    }
+    .input-text 
+    {
+      width:99px;
+    }
+    .lefthead
+    {
+     color: #1d2129;
+     font-family: Helvetica, Arial, sans-serif;
+     font-size: 36px;
+     font-weight: bold;
+     margin: 25px auto 10px 66px;
+   }
+      </style>
+</head>
+<body style="background-color: #e9ebee";>
+   <header class="fb-header">
+                   <span class="fbhead"> 
+                          facebook
+                   </span>
+                <div class="login-fields">
+        	      <table style="margin:0 auto;padding: 0px 451px; float: right;">
+            	     <tr>
+                        <td class="login-label" style="padding-left: 2px;color: white" > Email or Phone </td>
+                        <td class="login-label" style="padding-left: 2px;color: white"> Password</td>
+            	    </tr>
+           		    <tr>
+                        <td class="input-text" style="padding-left: 5px;">
+                          <input type="text" id="t1" class="input-text">
+                        </td>
+                        <td style="padding-left: 5px">
+                           <input type="password" id="p1" class="input-text">
+                        </td>
+                        <td style="padding-left: 5px">
+                           <button type="button" class="btn btn-success" style="width: 99px;background-color:#4267b2;  color:#FFF;border: 1px solid rgb(66, 103, 178);"> Log In</button>
+                        </td>
+                        </tr>
+                   </table>
+             </div>
+       </header>
+     <div class="container">
+        <div class="row">
+          <div class="col-xs-12" >
+           	   
+            </div>
+        </div>
+        <div class="row" fb-body>
+        	<div class="col-xs-6">
+        	     <h3 style="font-size: 27px;color: #0e385f;margin-top:40px; margin:40px auto; text-align:left; font-weight: bold; "> Facebook helps you connect and share with the people in your life</h3>
+                 <img src="/home/surya/Pictures/networkimg.jpg" width="537px" height="195px"  align="left">
+           	</div>
+           	<div class="col-xs-6">
+           	     <h5 class="lefthead" style="font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;font-size: 36px; font-weight: bold !important";> Create a new account </h5>
+        <h6  class="leftsubhead" style="font-family: 'Freight Sans', Helvetica, Arial, sans-serif !important;
+font-weight: normal !important;font-size: 19px;"> It's free and always will be</h6>
+          <table  class="create-account-table" > 
+            <tr>
+              <td   width="100px"><input type="text" name=" fname" placeholder="firstname"></td>
+              <td    width="100px"><input type="text" name="surname"  placeholder="surname"></td>
+            </tr>
+            <tr>
+              <td  colspan="2"  width="100px"><input class="mob" type="text" name=" mob" placeholder="mobile number or emailaddress " style="width: 372px; margin-bottom: 21px;margin-top: 16px" ></td>
+            </tr>
+            <tr>
+              <td  colspan="2" width="100px"><input  class="pwd"  type="password" name=" password" placeholder="New password"  style="width: 372px;" ></td>
+            </tr>
+            <tr>
+              <td  ><h6 class="birthday" style="font-size: 18px; font-family: arial;"> Birthday</h6></td>
+            </tr>
+            <tr style=" width: 100px;">
+              <td class="dob-td"  width="100px">
+                 <select   name="day"  style="margin-bottom: -3px;;" >
+                    <option value="day">Day</option>
+                    <option value="1">1</option>
+                     <option value="2">2</option>
+                 </select>
+              </td>
+              <td class="dob-td"  width="100px">
+                 <select   name="Month"   style="margin-bottom: -3px;;margin-left: -125px;">
+                    <option value="Month">Month</option>
+                    <option value="1">JAN</option>
+                    <option value="2">FEB</option>
+                 </select>
+              </td>
+              <td class="dob-td"  width="100px">
+                <select name="Year"  style="margin-bottom: -3px;margin-left: -236px;" >
+                  <option value="Year">Year</option>
+                  <option value="1997">1997</option>
+                  <option value="1998">1998</option>
+                </select>
+              </td>
+              <td class="dob"  width="100px"> <a href="" style="font-size: 12px;margin-bottom: -3px;display: block;width: 182px;margin-left: -238px;">Why do i need to provide my date of birth?</a></td>
+            </tr>
+            <tr >
+               <td style="padding-top: 13px;"><input type="radio" name="gender" value="female" >Female
+                <input type="radio" name="gender" value="male">Male
+                </td>
+            </tr>
+            <tr >
+              <td class="content-bottom" colspan="2" style="padding-top: 20px; font-size: 11px;font-family: arial">
+                By clicking Create Account, you agree to our <a href="" style="color: #365899; text-decoration: none;font-size: 11px;" >Terms </a> and confirm that you have read our <a href="" style="color: #365899; text-decoration: none;font-size: 11px;">Data Policy</a>, including our <a href="" style="color: #365899; text-decoration: none;font-size: 11px;"> Cookie Use Policy</a>. You may receive SMS message notifications from Facebook and can opt out at any time.
+              </td>
+            </tr> 
+            <tr>
+              <td style="padding-top: 16px;">
+                <button type="button" class="btn btn-success" style="width: 136px;background-color: #69a74e;color:#FFF;border-color: #3b6e22 "> Create an account</button>
+              </td>
+            </tr>
+           </table>
+           	</div>
+     	<div>	
+     </div>
+    </div>
+    </div>
+     </body>
+</html>
