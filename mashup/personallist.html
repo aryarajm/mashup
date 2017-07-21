@@ -5,18 +5,24 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
-<script type="text/javascript">
- $(document).ready(function(){
- 	$("#btn1").click(function(){
-    	 	var items=$("#t1").val();
-             $("ul").append("<li>"+items)
-        }); 
-});
-        </script>
-    	 <input type=" text" id="t1" >
-    	 <button id="btn1">	add
-        </button>
-         <ul id="u1">
-    	 </ul>
-    	 </body>
+	<script type="text/javascript">
+	 	$(document).ready(function(){
+	 		$("#btn1").click(function(){
+		    	var items=$("#t1").val();
+		        $("ul").append("<li class='item-li'>"+items+
+		         " <button class='close'> x</button><button class='complete'>Complete</button>");
+	            $('.close').click(function(){
+				     $(this).parent('li').remove();
+				});
+				$('.complete').click(function(){
+				     $(this).parent('li').css('text-decoration','line-through');
+				});
+	        }); 
+		});
+	</script>
+    <input type=" text" id="t1" >
+    <button id="btn1">	add</button>
+    <ul id="u1" ></ul>
+    <button class="clear" onclick="$('.item-li').remove()"">Clear All</button>
+</body>
 </html>
